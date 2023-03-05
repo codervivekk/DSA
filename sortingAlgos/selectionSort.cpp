@@ -3,7 +3,7 @@ using namespace std;
 
 /*Selection Sort Basically divides the array into two,
 where the first array is sorted and 2nd is unsorted,as the traversal moves ahead,we find the least
-element and inserts it to the beginning of the 1st array*/
+element and swaps it to the ith  of the 1st array*/
 
 void swapp(int &a,int &b){
     if(a!=b){
